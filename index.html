@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Saitazim kyzy Rizban</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,60 +16,40 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header-inner">
-          <div class="logo">
-          <a href="#home" class="logo">S R</a>
-        </div>
-          <nav class="header-nav">
-            <ul class="menu">
-              <li class="header-menu-item">
-                <a href="#home" class="header-menu-link">Home</a>
-              </li>
-              <li class="header-menu-item">
-                <a href="#skills" class="header-menu-link">Skills</a>
-              </li>
-              <li class="header-menu-item">
-                <a href="#code" class="header-menu-link">Code</a>
-              </li>
-              <li class="header-menu-item">
-                <a href="#portfolio" class="header-menu-link">Portfolio</a>
-              </li>
-              <li class="header-menu-item">
-                <a href="#languages" class="header-menu-link">Languages</a>
-              </li>
-              <li class="header-menu-item">
-                <a href="#education" class="header-menu-link">Education</a>
-              </li>
-            </ul>
-          </nav>
-
-          <button class="menu-btn">
-            <svg
-              width="24"
-              height="24"
-              xmlns="http://www.w3.org/2000/svg"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-            >
-              <path
-                d="M24 21h-24v-2h24v2zm0-4.024h-24v-2h24v2zm0-3.976h-24v-2h24v2zm0-4h-24v-2h24v2zm0-6v2h-24v-2h24z"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
+      <!-- <div class="container"> -->
+      <a href="#" class="logo">S R</a>
+      <nav class="navbar">
+        <a  href="#homel">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#code">Code</a>
+        <a  href="portfolio">Portfolio</a>
+        <a href="#languages">Languages</a>
+        <a href="#education">Education</a>
+      </nav>
+        <button class="menu-btn">
+          <svg
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+          >
+            <path
+              d="M24 21h-24v-2h24v2zm0-4.024h-24v-2h24v2zm0-3.976h-24v-2h24v2zm0-4h-24v-2h24v2zm0-6v2h-24v-2h24z"
+            />
+          </svg>
+        </button>
     </header>
-    <main>
+     <main>
       <section class="about">
         <div class="container">
           <div class="about-inner">
             <div class="about-col">
-              <img class="intro-img" src="img/1.jpg" alt="Rizban's photo" />
+              <img class="intro-img" src="img/i" alt="Rizban's photo" />
             </div>
             <div class="about-col2">
-              <h1>Saitazim kyzy Rizban</h1>
-              <h3>Junior web-developer</h3>
+              <h1 class="about-title">Saitazim kyzy Rizban</h1>
+              <h3 class="about-title">Junior web-developer</h3>
               <p>
                 I like to create beautiful websites and applications from
                 scratch for different projects and tasks. My goal is to reach
@@ -95,16 +75,16 @@
               <a href="tel:+996771423708">+996771423708</a>
             </li>
             <li>
-              <h4>Email</h4>
-              <a href="mailto:rizban.saitazimova.kk@gmail.com"
-                >rizban.saitazimova.kk@gmail.com</a
+              <h4>Github</h4>
+              <a href="mailto:https://github.com/Rizban23"
+                >https://github.com/Rizban23</a
               >
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="skills" id="skills">
+       <section class="skills" id="skills">
         <div class="container">
           <h2 class="section-title">Skills</h2>
           <ul class="skills-list">
@@ -120,6 +100,7 @@
       <section class="code" id="code">
         <div class="container">
           <h2 class="section-title">Code Example</h2>
+          <div class="code-body">
           <p>
             <b>Task: </b> <i>Write a sample code with appropriate html tags</i>
           </p>
@@ -138,8 +119,9 @@
               &lt;/section&gt;
           </code>
         </pre>
+      </div>
         </div>
-      </section>
+      </section> 
       <section class="portfolio" id="portfolio">
         <div class="container">
           <h2 class="section-title">Portfolio</h2>
@@ -148,7 +130,7 @@
               <img src="img/todo.png" alt="hover_sample" />
               <h3>Todo_list</h3>
               <a
-                href="https://vercel.com/rizbans-projects/my-todolist_react"
+                href="https://rizban23.github.io/neobis-front-todoList/"
                 target="_blank"
                 >View project</a
               >
@@ -195,10 +177,10 @@
     <footer class="footer">
       <p>
         2022 &copy;
-        <a href="https://github.com/Rizban23"> Saitazim kyzy Rizban</a>
-        
-      </p>
-    </footer>
+        <a href="https://github.com/Rizban23">github:Rizban23, Saitazim kyzy Rizban</a>
+         
+      </p> 
+    </footer> 
 
     <script src="./script.js"></script>
   </body>
